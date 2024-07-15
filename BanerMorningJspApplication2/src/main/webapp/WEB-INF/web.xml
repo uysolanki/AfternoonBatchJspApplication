@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<servlet>
+<servlet-name>DeleteSingleStudent</servlet-name>
+<servlet-class>DeleteSingleServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<url-pattern>/deletesingle</url-pattern>
+<servlet-name>DeleteSingleStudent</servlet-name>
+</servlet-mapping>
+
+</web-app>
